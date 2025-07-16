@@ -1,0 +1,16 @@
+{
+  "name": "dottyfix/mailwrapper",
+  "description": "Mail avec templates handlebars. Choix entre Brevo et SMTP (PHPMailer)",
+  "autoload": {
+    "psr-4": {
+      "Dottyfix\\Tools\\MailWrapper\\": "/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "minimum-stability": "stable"
+}
